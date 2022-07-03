@@ -1,0 +1,32 @@
+.explore{
+    margin-top: 2.8rem;
+    position: relative;
+}
+.explore__banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50rem;
+}
+.explore__content{
+    margin-top: 50rem;
+}
+.explore__heading{
+    font-size: 3rem;
+}
+.explore__item{
+    margin-top: 1.2rem;
+    position: relative;
+}
+.explore__tittle{
+    font-size: 1.4rem;
+}
+.explore__tag{
+    font-size: 1.8rem;
+}
+.explore__icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.6rem;
+}

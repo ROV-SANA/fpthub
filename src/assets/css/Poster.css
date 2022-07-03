@@ -1,0 +1,118 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster {
+    width: 75rem;
+    background-color: #fff;
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.times {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+}
+.poster__heading{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1.6rem;
+    border-bottom: 1px solid #E7E7E7;
+    width: 100%;
+}
+.poster__content{
+    padding: 2rem;
+    width: 100%;
+}
+.poster__avt{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1.2rem;
+}
+.poster__name{
+    font-size: 2rem;
+    line-height: 5rem;
+    font-weight: bold;
+}
+.poster__input{
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+}
+.poster__topic {
+    font-size: 1.8rem;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.poster__topic .row img {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: auto 0;
+    margin-left: 0.4rem;
+}
+.poster__topic p {
+    margin-right: 0.4rem;
+    line-height: 3rem;
+}
+.poster__attachment {
+    margin-top: 1.2rem;
+    font-size: 1.8rem;
+    padding: 2rem;
+    border: 1px solid #878A8C;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.poster__attachment p {
+    color: #878A8C;
+}
+.poster__attachment img {
+    margin-left: 2rem;
+}
+.poster__btn {
+    min-width: 24rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: #537AA3;
+    cursor: no-drop;
+}
+.poster__btn.active {
+    background-color: #014fa0;
+    cursor: pointer;
+}
+.tag__nav{
+    position: absolute;
+    bottom: 3.6rem;
+    left: 16rem;
+    padding: 0;
+}
+.tag__item{
+    padding: 1rem 2rem;
+    cursor: default;
+}
+.tag__item:hover {
+    background-color: #E7E7E7;
+}
+.tag__item:first-child {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tag__item:last-child {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

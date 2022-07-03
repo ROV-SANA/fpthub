@@ -1,0 +1,10 @@
+.bookmarkList{
+    margin-top: 2.8rem;
+}
+.bookmarkList__heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bookmarkList__username{
+    font-size: 1.4rem;
+}

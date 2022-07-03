@@ -1,0 +1,58 @@
+.setting-content {
+    padding: 0 2.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.settings {
+    padding: 0 2.8rem;
+    width: 100%;
+    padding-bottom: 2.8rem;
+}
+.settings__heading{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 1.8rem;
+}
+.settings__left{
+    width: 44%;
+}
+.settings__item{
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    margin-right: 2rem;
+}
+.settings__label{
+
+}
+.settings__input{
+    font-size: 2rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid #878A8C;
+    outline: none;
+}
+.settings__desc input {
+    height: 12rem;
+}
+.settings__first {
+    width: 55%;
+}
+.settings__last {
+    width: 45%;
+}
+.settings__password {
+    width: calc(55% - 2rem);
+}
+.settings__button {
+    width: 40%;
+    font-size: 2rem;
+    margin-top: 0.8rem;
+}
+.settings__right{
+
+}
+.red {
+    color: red;
+}

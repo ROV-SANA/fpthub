@@ -1,0 +1,94 @@
+.login {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url("../images//background.png") top center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__heading{
+    font-size: 3.6rem;
+    color: #fff;
+    margin-bottom: 2.8rem;
+}
+.login__item {
+    width: 70%;
+    position: relative;
+}
+.login__icon {
+    position: absolute;
+    font-size: 2.8rem;
+    color: #F27122;
+    top: 0.8rem;
+    left: 1.4rem;
+}
+.login__input{
+    width: 100%;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 60%);
+    border: none;
+    border-radius: 1rem;
+    padding: 1.2rem 1.2rem 1.2rem 5rem;
+    margin-bottom: 1.2rem;
+    outline: none;
+}
+.login__input::placeholder {
+    color: #342F2C;
+}
+.login__checkbox {
+    margin-right: 0.4rem;
+}
+.login__sub{
+    width: 70%;
+    color: #fff;
+    justify-content: space-between;
+}
+.login__sub a {
+    color: #fff;
+}
+.login__remember{
+    font-size: 1.2rem;
+}
+.login__register {
+    font-size: 1.2rem;
+}
+.login__button {
+    margin-top: 1.2rem;
+    border-radius: 4.5rem;
+    background-color: rgba(255, 255, 255, 60%);
+    font-size: 2rem;
+    color: #342F2C;
+    width: 40%;
+    cursor: not-allowed;
+}
+.login__container p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+.google__button {
+    padding: 1.2rem;
+    padding-left: 5.2rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+    border: none;
+    position: relative;
+    background-color: #fff;
+    cursor: pointer;
+}
+.google_icon {
+    width: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+}

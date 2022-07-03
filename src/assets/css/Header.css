@@ -1,0 +1,88 @@
+.wrapper[for="header"] {
+    background-color: #fff;
+}
+.header {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.8rem;
+}
+.header__logo {
+    background: url("../images/logo.svg") top left no-repeat;
+    height: 5.4rem;
+    width: 174px;
+    width: 20%;
+    cursor: pointer;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 20%;
+    position: relative;
+}
+.dropdown__avt{
+    height: 50px;
+    width: 50px;
+    background: url("https://teamgreen.org.in/wp-content/uploads/2019/07/boy-avatar-3.png") top center / cover no-repeat;
+    margin-right: 1.2rem;
+}
+.dropdown__name{
+    font-size: 24px;
+    margin-right: 1.2rem;
+    line-height: 5rem;
+}
+.dropdown__icon{
+    text-align: end;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 3.8rem;
+    text-align: center;
+    /* height: 1rem; */
+}
+.dropdown__icon:hover {
+    background-color: #E6E6E6;
+}
+.dropdown__options{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    z-index: 6;
+    padding: 2rem;
+    box-shadow: rgb(99 99 99 / 20%) 0px 6px 12px 4px;
+    min-width: 32rem;
+}
+.dropdown__options.active {
+    display: block;
+}
+.dropdown__title{
+    border-bottom: 1px solid rgba(135, 138, 140, 0.5);
+    padding-bottom: 2rem;
+} 
+.dropdown__options .dropdown__avt {
+    height: 65px;
+    width: 65px;
+}
+.dropdown__options a {
+    font-size: 1.6rem;
+}
+.dropdown__options .column {
+    justify-content: flex-end;
+}
+.dropdown__item {
+    padding-top: 2rem;
+    height: 6rem;
+    line-height: 4rem;
+}
+.dropdown__item img {
+    margin-right: 1.2rem;
+}
+
+.dropdown__options .dropdown__name{
+    line-height: 3.2rem;
+}

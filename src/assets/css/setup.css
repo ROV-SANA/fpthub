@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+body {
+  /* color: #1a2b5f; */
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #E7E7E7;
+}
+
+.wrapper[for="header"] {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main {
+  margin-top: 8rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #1a2b5f;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.w58 {
+  width: 58%;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.padding-shadow {
+  padding: 0 1rem;
+}
+
+.shadow1 {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 15%);
+}
+
+.shadow2 {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 8px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+
+.counter--seed {
+  color: #50b846;
+}
+.counter--flag {
+  color: #dc3535;
+}
+
+.seed {
+  color: #50b846;
+}
+
+.flag {
+  color: #dc3535;
+}
+
+.bookmark {
+  color: #014fa0;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem 0;
+  font-size: 24px;
+}
+
+.btn--blue {
+  background-color: #014fa0;
+  color: #fff;
+}
+
+.no-scroll {
+  overflow: auto;
+  height: 100rem;
+}
+.no-scroll::-webkit-scrollbar {
+  display: none; /* cho Chrome, Safari, and Opera */
+}
+.z0 {
+  z-index: 0 !important;
+}
+.margin-center {
+  margin: 0 auto;
+}
+.col-6 {
+  width: calc(100% /6);
+}
+.p28 {
+  padding: 0 2.8rem;
+}
